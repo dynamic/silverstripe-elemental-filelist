@@ -14,7 +14,7 @@ class ElementFileListTest extends SapphireTest
     protected static $fixture_file = '../fixtures.yml';
 
     /**
-     * 
+     *
      */
     public function testGetCMSFields()
     {
