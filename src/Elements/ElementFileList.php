@@ -12,7 +12,7 @@ class ElementFileList extends BaseElement
      * @var string
      */
     private static $icon = 'font-icon-block-file-list';
-    
+
     /**
      * @var string
      */
@@ -61,7 +61,7 @@ class ElementFileList extends BaseElement
         } else {
             $label = ' files';
         }
-        return DBField::create_field('HTMLText', $this->Files()->count() . ' ' . $label)->Summary(20);
+        return DBField::create_field('HTMLText', $this->Files()->count() . $label)->Summary(20);
     }
 
     /**
