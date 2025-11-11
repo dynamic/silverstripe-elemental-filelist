@@ -1,5 +1,7 @@
 # Silverstripe Elemental File List
 
+[![Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ff69b4?logo=github)](https://github.com/sponsors/dynamic)
+
 A multi file block for SilverStripe Elemental.
 
 [![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-filelist/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-filelist)
