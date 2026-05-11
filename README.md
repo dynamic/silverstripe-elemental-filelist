@@ -13,8 +13,8 @@ A multi file block for SilverStripe Elemental.
 
 ## Requirements
 
-* Silverstripe ^5.0
-* Silverstripe Elemental ^5.0
+* Silverstripe ^6.0
+* Silverstripe Elemental ^6.0
 
 #### Optional
 
