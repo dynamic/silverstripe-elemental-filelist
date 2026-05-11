@@ -1,4 +1,3 @@
 <?php
 
-define('SILVERSTRIPE_ELEMENTAL-FILELIST_PATH', __DIR__);
-define('SILVERSTRIPE_ELEMENTAL-FILELIST_DIR', basename(__DIR__));
+// no-op
