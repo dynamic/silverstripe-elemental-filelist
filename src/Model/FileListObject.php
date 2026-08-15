@@ -150,7 +150,7 @@ class FileListObject extends DataObject
         }
 
         if ($page = $this->FileList()->getPage()) {
-            return $page->canArchive($member);
+            return $page->canDelete($member);
         }
 
         return Permission::check('CMS_ACCESS', 'any', $member);
