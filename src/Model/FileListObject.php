@@ -134,9 +134,8 @@ class FileListObject extends DataObject
     /**
      * Basic permissions, defaults to page perms where possible.
      *
-     * Uses archive not delete so that current stage is respected i.e if a
-     * element is not published, then it can be deleted by someone who doesn't
-     * have publishing permissions.
+     * Delegates to the owning page's canDelete(). Versioned::canArchive() was
+     * removed in Silverstripe 6, so canDelete() is the page-level check.
      *
      * @param \SilverStripe\Security\Member|null $member
      *
